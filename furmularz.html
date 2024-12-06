@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularz</title>
+</head>
+<body>
+    <fieldset>
+    <legend>Dane osobowe</legend>
+    <form>
+        Imię: <input type="text" name="imię" placeholder="wpisz swoje imię" required>
+        Nazwisko: <input type="text" name="nazwisko" placeholder="wpisz swoje nazwisko" required>
+        E-mail: <input type="email" name="email" placeholder="wpisz swój e-mail" required>
+        Numer telefonu: <input type="numer" placeholder="wpisz swój numer telefonu" required>
+    </form>
+    </fieldset>
+
+    <fieldset>
+    <legend>Dane osobowe</legend>
+    <form>
+        Wybierz płeć:
+        <input type="radio" name="płeć"> Kobieta 
+        <input type="radio" name="płeć"> Mężczyzna 
+        <input type="radio" name="płeć"> Inne <br><br>
+        Wybierz stan cywilny:
+        <select name="stan">
+        <option>Panna/kawaler</option>
+        <option>Zamężna/żonaty</option>
+        <option>Rozwiedziona/rozwiedziony</option>
+        <option>Wdowa/wdowiec</option>
+        </select> <br><br>
+        Wybierz rodzaj wykształcenia:
+        <select name="wyksztalcenie">
+        <option>Podstawowe</option>
+        <option>Gimnazjalne</option>
+        <option>Zasadnicze zawodowe</option>
+        <option>Zasadnicze branżowe</option>
+        <option>Średnie branzowe</option>
+        <option>średnie</option>
+        <option>Wyższe</option>
+        </select>
+    </form>
+    </fieldset>
+
+    <fieldset>
+    <legend>Opcje</legend>
+    <form>
+        Czy chcesz, abyśmy się z Tobą skontaktowali? <br>
+        <input type="radio" name="kontakt"> Tak: 
+        <input type="radio" name="kontakt"> Nie: <br><br>
+        Wybierz dozwolone formy kontaktu z Tobą:<br>
+        <input type="checkbox" name="Tam-tam"> Tam-tam
+        <input type="checkbox" name="Telefon"> Telefon
+        <input type="checkbox" name="E-mail"> E-mail
+    </form>
+    </fieldset>
+
+    <fieldset>
+    <legend>Wiadomość</legend>
+    <form>
+    <textarea name="opis" placeholder="opis" cols rows="20"></textarea>
+    <input type="submit" value="wyślij">
+    <input type="reset">
+    </form>
+    </fieldset>
+</body>
+</html>

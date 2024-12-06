@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie</title>
+</head>
+<body>
+<details>
+    <summary>Istenieje kilka odmian dystrybucji Ubuntu.</summary> 
+    <ul type="Punkt pierwszy"> 
+    <li>Ubuntu Desktop</li>
+    <li>Kubuntu<li>
+    <li>Xubuntu</li>
+    <li>Lubuntu</li>
+    </ul>
+</details>
+    
+    <b>Popularne kodowania dla języka polskiego:</b>
+    <ul type="Punkt pierwszy">
+    <li>utf-8</li>
+    <li>iso-8859-2</li>
+    <li>windows-1250</li>
+    </ul>
+
+    <ol type="i">
+    <li>Alpha</li>
+    <li>Beta</li>
+    <li>Gamma</li>
+    </ol>
+
+    <ul type="Punkt pierwszy">
+        <li>klasy drugie</li>
+        <ol type="1">
+        <li>2T1</li>
+        <li>2T2</li>
+        <li>2T3</li>
+        </ol>
+    </ul>
+
+    <ul type="Punkt drugi">
+    <li>klasy trzecie</li>
+    <ol type="1">
+    <li>3T1</li>
+    <li>3T2</li>
+    </ol>
+    </ul>
+
+    <dl>
+        <dt> S.M.A.R.T.</dt>
+        <dd> (ang. Self-Monitoring Analysis Technology) - system monitorowania i powiadamiania o błędach działania twardego dysku.</dd>
+        <dt> SCSI</dt>
+        <dd> (ang. Small Computer Systems Interface) - równoległa magistrala danych przeznaczona do przesyłania danych między urządzeniami.</dd>
+    </dl>
+
+    <ol>
+        <li>Klasy drugie</li>
+        <ul type="circle">
+        <li>2TI1</li>
+        <ul type="square">
+        <li>Grupa A</li>
+        <li>Grupa B</li>
+    </ol>
+    <ol>
+        <ul type="circle">
+        <li>2TI2</li>
+        <ul type="square">
+        <li>Grupa A</li>
+        <li>Grupa B</li>
+        </ul>
+        </ul>
+    </ol>
+    <ol>  
+        <ul type="circle">
+        <li>2TI3</li>
+        <ul type="square">
+        <li>Grupa A</li>
+        <li>Grupa B</li>
+        </ul>
+        </ul>
+    </ol>   
+    <ol start="2"> <!--WAŻNE ZACZYNA LICZYĆ OD NUMERU 2!-->
+        <li>Klasy trzecie</li>
+        <ul type="1">
+        <li>3TI1</li>
+        <li>3TI2</li>
+        </ul>
+    </ol>
+    <ol start="3"></ol>
+    
+
+</body>
+</html>

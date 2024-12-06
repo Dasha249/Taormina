@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularz_zadanie</title>
+</head>
+<body>
+    <fieldset>
+    <legend>Formularz ubezpieczeniowy</legend>
+    <form>
+        Podaj imię <input type="text" name="imię" required placeholder="podaj imię">
+        Podaj nazwisko <input type="text" name="nazwisko" required placeholder="podaj nazwisko">
+        Podaj datę urodzenia <input type="number" name="data" required placeholder="podaj datę urodzenia">
+        Rocznik pojazdu <input type="number" id="rocznik pojazdu" name="rocznik pojazdu" min="1940" max="2024" required placeholder="rocznik pojazdu"><br><br>
+                
+                Marka pojazdu
+            <select id="marka" name="marka" required>
+                <option value="">-- Wybierz markę --</option>
+                <option value="toyota">Toyota</option>
+                <option value="ford">Ford</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="honda">Honda</option>
+                <option value="nissan">Nissan</option>
+                <option value="kia">Kia</option>
+                <option value="hyundai">Hyundai</option>
+            </select>
+        Podaj płeć
+        <input type="radio" name="płeć"> kobieta
+        <input type="radio" name="płeć"> mężczyzna
+        <input type="radio" name="płeć"> nie chcę podawać<br><br>
+    
+        Uwagi:
+        <textarea name="uwagi" placeholder="uwagi" rows="5"></textarea>
+        <input type="submit" value="wyślij">
+        <input type="reset">
+    </form>
+    </fieldset>
+</body>
+</html>

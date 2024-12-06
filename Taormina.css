@@ -1,0 +1,27 @@
+body{
+    background-color: #E1C057;
+    color: black;
+}
+.tytul{
+    background-color: #133F7C;
+    text-align: center;
+    padding: 1px;
+}
+.zdjecia{
+    text-align: center;
+    padding: 6px;
+}
+.glowny{
+    text-align: left;
+    padding: 6px;
+    background-color: #FDDEA0;
+}
+.tytul2{
+    background-color: #133F7C;
+    padding: 2px;
+    text-align: center;
+}
+.historia{
+    background-color: #FDDEA0;
+    padding: 6px;
+}
