@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz.html</title>
+    <link href="formularz_taormina.css" rel="stylesheet">
+</head>
+<body>
+   <div class="tytul"><legend><h1>Formularz</h1></legend></div><br>
+   <div class="formularz"><fieldset><form>
+    <b>Podaj imię <input type="text" name="imie" required placeholder="Podaj imię"></b>
+    <b>Podaj nazwisko <input type="text" name="nazwisko" required placeholder="Podaj nazwisko"></b>
+    <b>Podaj e-mail <input type="email" name="email" required placeholder="Podaj e-mail"></b>
+    <b>Podaj hasło <input type="password" name="haslo" required placeholder="Podaj hasło"></b><br><br>
+    <b>Wybierz płeć</b>
+    <input type="radio" name="plec"> Kobieta
+    <input type="radio" name="plec"> Mężczyzna
+    <input type="radio" name="plec"> Inne <br><br>
+    <b>Czy chcesz abym się z Tobą skontaktowała?</b>
+    <input type="radio" name="kontakt"> Tak
+    <input type="radio" name="kontakt"> Nie <br><br>
+    <b>Wybierz dozwolone formy kontaku z Tobą</b>
+    <input type="checkbox" name="E-mail">E-mail
+    <input type="checkbox" name="Wiadomosci">Wiadomości
+    <input type="checkbox" name="Telefon">Telefon <br><br>
+    <b>Czy podobała Ci się przedstawiona strona internetowa?</b>
+    <select name="wybor">
+    <option>Tak</option>
+    <option>Nie</option>
+    </select><br><br>
+    <b>Czy uważasz tę stronę internetową za wartościową?</b>
+    <input type="radio" name="wybor"> Tak
+    <input type="radio" name="wybor"> Nie <br><br>
+    <b>W jakiej skali oceniasz daną stronę internetową (1-5)</b>
+    <select name="skala">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    </select><br><br>
+    <b>Czy napotkałaś/eś jakieś trudności w przeglądaniu strony? (Jeśli <b>tak</b> proszę opisać)</b>
+    Tak <input type="text" name="wybor" placeholder="Opisz trudność">
+    <input type="radio" name="wybor"> Nie<br><br>
+    <b>Czy poleciła/polecił byś moją stronę innym osobom?</b>
+    <input type="radio" name="polecenie"> Tak
+    <input type="radio" name="polecenie"> Nie<br><br>
+    <b>Uwagi</b>
+    <textarea name="uwagi" placeholder="Uwagi" cols="5" rows="10"></textarea>
+    <input type="submit" value="wyślij">
+    <input type="reset" value="wyczyść">
+   </form></fieldset></div>
+</body>
+</html>

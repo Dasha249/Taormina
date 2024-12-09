@@ -1,11 +1,13 @@
 body{
-    background-color: #E1C057;
-    color: black;
+    background-color: #F4F6F8;
+    color: #F4F6F8;
 }
 .tytul{
-    background-color: #133F7C;
+    background-color: #2C3E50;
     text-align: center;
     padding: 1px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 15px;
 }
 .zdjecia{
     text-align: center;
@@ -14,14 +16,104 @@ body{
 .glowny{
     text-align: left;
     padding: 6px;
-    background-color: #FDDEA0;
+    background-color: #456180;
 }
 .tytul2{
-    background-color: #133F7C;
+    background-color: #2C3E50;
     padding: 2px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
 }
 .historia{
-    background-color: #FDDEA0;
+    background-color: #456180;
     padding: 6px;
 }
+.tytul3{
+    background-color: #2C3E50;
+    padding: 6px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+}
+.polozenie{
+    background-color: #456180;
+    padding: 6px;
+}
+.mapa{
+    text-align: center;
+}
+.tytul4{
+    background-color: #2C3E50;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px;
+    border-radius: 15px;
+}
+.atrakcje{
+    background-color: #456180;
+    padding: 6px;
+}
+.zdjecia2{
+    background-color: #456180;
+    padding: 10px;
+    text-align: center;
+}
+.tytul5{
+    background-color: #2C3E50;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+table{
+    background-color: #456180;
+    border: #2C3E50 2px solid;
+    color: #F4F6F8;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lista{
+    background-color: #456180;
+    color:#F4F6F8;
+    padding: 6px;
+}
+.lista2{
+    background-color: #456180;
+    color: #F4F6F8;
+    padding: 6px;
+}
+.film{
+    text-align: center;
+}
+.formularz{
+    background-color: #2C3E50;
+    text-align: center;
+    padding: 6px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.wypelnij{
+    background-color: #456180;
+    padding: 6px;
+    text-align: center;
+}
+
+.tytul6{
+    background-color: #2C3E50;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px;
+}
+.zrodla{
+    background-color: #456180;
+    padding: 6px;
+}
+.stopka{
+    background-color: #2C3E50;
+    padding: 6px;
+    text-align: center;
+}
+
