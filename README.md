@@ -1,0 +1,1 @@
+Hey, this is my first project about make a website. This is a school project and the topic about this is "What is your favourite place on Earth?". I decided make a website about place Taormina beacuse I was that in when I started IT intership in the program Erasmus+. In the website are basics information about Taormina and form which sums up all website.
